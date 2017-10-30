@@ -52,7 +52,7 @@
 
     <section id="write" class="tab-content">
       <h1>Create New Article</h1>
-      <!-- TODO: Set up a form to accept user input for a new blog article. Remember that we need:
+      <!-- DONE: Set up a form to accept user input for a new blog article. Remember that we need:
       1. Article title
       2. Article body
       3. Article author
@@ -87,7 +87,7 @@
       <!-- DONE: Refer to the preview image to see what we will be building here: we need a container of some kind to hold a JSON export of our article. Ideally this container would show only a incipit (short preview) of the JSON and also be clickable to allow easy selection of the text it holds. What kind of element could we use for this? -->
       <label id="export-field" for="article-json" class="pull-right">
         <input type="text" readonly id="article-json">
-          Copy and Paste this JSON into your array of articles!
+        Copy and Paste this JSON into your array of articles!
       </label>
 
     </section>
@@ -107,7 +107,7 @@
   // TODO: We will need to call a function here to initialize the behaviors on this page, once we get them built out. Why?
   // (Look at the bottom of index.html as a reference. Since we are now using our JS on two different HTML pages that have different needs as to what parts of the code they utilize, we need to build a function that inializes each page.)
   //  Hint: Look in articleView.js for a function that does this.
-
+  articleView.initNewArticlePage()
   // COMMENT: What is this function doing? Why do we need it?
   // PUT YOUR RESPONSE HERE
   </script>
